@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_red_light">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="防空警报！"
+        android:textSize="60sp"
+        android:textColor="@color/yellow"/>
+    <Button
+        android:id="@+id/gogogo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="导航到避难场所"
+        android:textSize="25sp"
+        android:textColor="@android:color/holo_red_light"
+        android:background="@android:color/black"/>
+
+</LinearLayout>

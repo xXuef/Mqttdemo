@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="@android:color/holo_green_light"
+        android:text="防空警报"
+        android:textSize="80sp"/>
+
+    <ImageView
+        android:id="@+id/jiantou"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:src="@mipmap/jiantou"/>
+    <TextView
+
+        android:visibility="invisible"
+        android:singleLine="true"
+        android:id="@+id/text123"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:ellipsize="marquee"
+        android:scrollHorizontally="true"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:textColor="@android:color/holo_red_light"
+        android:text="空袭预警，请大家转移到避难所！"
+        android:textSize="80sp"
+        />
+
+</LinearLayout>
